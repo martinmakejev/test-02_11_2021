@@ -32,5 +32,5 @@ jobs:
         uses: wearerequired/lint-action@v1
         with:
           eslint: true
-      - name: run jest
-        run: npm jest
+      - name: Run Jest
+        uses: stefanoeb/jest-action@1.0.3
